@@ -10,10 +10,6 @@ Version: 1.0
 
 /*	PATTERN LIBRARY STYLES
 /*----------------------------------------------------*/
-@font-face {
-    font-family: "Helvetica Neue";
-    src: url('font/HelveticaNeueMed.woff') format('woff') ;
-}
 
 body
 {
