@@ -1,4 +1,3 @@
-
 /*Contact sectiom*/
 .content-header{
 
@@ -553,4 +552,7 @@ box-shadow: 0 2px 3px rgba(0, 0, 0, 0.34);
     display:box;
     box-pack:center;
     box-align:center;
-}}
+}}.article h3 {
+    margin-bottom:8px;
+     margin-top:40px;
+}
