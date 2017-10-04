@@ -10,10 +10,6 @@ Version: 1.0
 
 /*	PATTERN LIBRARY STYLES
 /*----------------------------------------------------*/
-@font-face {
-    font-family: "Helvetica Neue";
-    src: url('font/HelveticaNeueMed.woff') format('woff') ;
-}
 
 body
 {
@@ -24,9 +20,7 @@ body
     /*text-rendering: optimizeLegibility;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.article {
+}.article {
   padding: 12rem 12%;
   text-align: left;
 }
@@ -518,7 +512,7 @@ h6, .h6
 p
 {
     /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     margin: 15px 0;
     color: #515157;
@@ -579,20 +573,16 @@ ol
 {
     position: relative;
     padding-left: 22px;
-}
-
-ul
+}ul
 {
-    list-style: none;
+    list-style: square-button;
     position: relative;
     padding-left: 22px;
-}
-
-ul li,
+}ul li,
 ol li
 {
     /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
-    font-size: 14px;
+    font-size: 17px;
     color: #515157;
     margin-bottom: 5px;
 }
@@ -700,9 +690,11 @@ p .btn
 
 /* Button DEFAULT */.btn.btn-default
 {
-    color: #00a8ff;
+color: #00a8ff;
 border-color: #00a8ff;
 background: transparent;
+margin-left: 3%;
+width: 200px;
 }.btn.btn-default:hover,.btn.btn-default.pg-state-hover
 {
    
