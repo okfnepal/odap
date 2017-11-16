@@ -163,7 +163,7 @@ h2 {
 }
 
 p {
-  margin-bottom: 2rem;
+  margin-bottom: 1em;
   line-height: 1.2;
   font-weight: 200;
 }
@@ -527,6 +527,22 @@ section {
   display: inline-block;
   
   text-align: center;
+}
+ ul.project {
+
+ }
+ul.project li {
+  line-height: 30px;
+  list-style: none;
+   
+
+}
+
+ul.project li:before  {
+   content: "➭"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #fff; /* Or a color you prefer */
+
 }
 
 .flag {
